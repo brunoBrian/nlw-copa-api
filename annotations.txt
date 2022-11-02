@@ -1,0 +1,6 @@
+criando banco de dados sqlite
+npx prisma init --datasource-provider SQLite
+
+
+rodando migration (versionamento) para alterar o BD
+npx prisma migrate dev
