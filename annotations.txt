@@ -8,3 +8,11 @@ npx prisma migrate dev
 
 visualizar banco de dados pelo navegador
 npx prisma studio
+
+
+
+
+
+
+prisma-erd-generator - Gerar diagrama de dados
+mermaid - Gerar diagrama de dados atraves de codigo
