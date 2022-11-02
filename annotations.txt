@@ -4,3 +4,7 @@ npx prisma init --datasource-provider SQLite
 
 rodando migration (versionamento) para alterar o BD
 npx prisma migrate dev
+
+
+visualizar banco de dados pelo navegador
+npx prisma studio
