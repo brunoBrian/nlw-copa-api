@@ -9,6 +9,8 @@ npx prisma migrate dev
 visualizar banco de dados pelo navegador
 npx prisma studio
 
+gerar as tabelas
+npx prisma generate
 
 
 
