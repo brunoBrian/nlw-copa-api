@@ -18,3 +18,10 @@ npx prisma generate
 
 prisma-erd-generator - Gerar diagrama de dados
 mermaid - Gerar diagrama de dados atraves de codigo
+
+
+
+Seed -> popula o banco de dados com mocks
+
+roda o script do seed, que foi criado o package.json
+npx prisma db seed
