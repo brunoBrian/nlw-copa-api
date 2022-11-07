@@ -101,7 +101,7 @@ export async function PoolRoutes(fastify: FastifyInstance) {
 
     const pool = await prisma.pool.findUnique({
       where: {
-        code
+        code: code.toUpperCase()
       },
       include: {
         participants: {
